@@ -194,7 +194,7 @@ def original_subject(msg):
     return originalsubject
 
 
-# the actual code starts here...
+# Executable code starts here...
 
 # connect to incoming mail server
 M = imaplib.IMAP4_SSL(incoming_server)
